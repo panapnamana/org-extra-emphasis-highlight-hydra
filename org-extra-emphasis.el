@@ -581,10 +581,10 @@ specified in `org-extra-emphasis-alist'."
 (setcar (last org-emphasis-regexp-components) 5)
 
 (defcustom org-extra-emphasis-alist
-  '(("!!" org-extra-emphasis-01)
-    ("!@" org-extra-emphasis-02)
-    ("!%" org-extra-emphasis-03)
-    ("!&" org-extra-emphasis-04)
+  '(("¡" org-extra-emphasis-01)
+    ("¿" org-extra-emphasis-02)
+    ("፧" org-extra-emphasis-03)
+    ("↯" org-extra-emphasis-04)
     ("@!" org-extra-emphasis-05)
     ("@@" org-extra-emphasis-06)
     ("@%" org-extra-emphasis-07)
